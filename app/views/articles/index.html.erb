@@ -10,8 +10,9 @@
 	<tr>
 		<td><%= d.title %></td>
 		<td><%= d.description %></td>
-		<td><%= link_to 'Edit', edit_article_path(d)%></td>
-		<td><%= link_to 'Show', article_path(d)%></td>
+		<td><%= link_to 'Edit', edit_article_path(d)%>|</td> 
+		<td><%= link_to 'Show', article_path(d)%>|</td>
+		<td><%= link_to 'delete', article_path(d), method: :delete ,data: {confirm:"Are you sure, You want to delete?"} %> </td>
 	</tr>
 <% end %>
 
