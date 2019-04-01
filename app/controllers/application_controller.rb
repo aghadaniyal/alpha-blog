@@ -16,5 +16,5 @@ class ApplicationController < ActionController::Base
 			redirect_to root_path
 		end
 	end
-
+	
 end
