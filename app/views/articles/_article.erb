@@ -29,6 +29,15 @@
 
 		</div>
 
+			<% if d.categories.any? %>
+					<p><b>Categories:</b><% d.categories.each do |e| %>
+					<span class= "badge"><%= link_to "#{e.name}", category_path(e.id) %></span>
+
+				<% end %>
+				</p>
+
+			<% end %>
+			
 			<% if logged_in? && (current_user == d.user || current_user.admin?) %>
 
 				<div class="article-actions">

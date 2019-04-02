@@ -11,7 +11,6 @@ $navbar-default-bg: #58b1b2;
 	text-transform: uppercase;
 	letter-spacing: 1px; 	
 	font-weight: bold;
-
 }	
 
 .center{
@@ -19,70 +18,93 @@ $navbar-default-bg: #58b1b2;
 	text-align: center;
 }
 
-.jumbotron{
+.jumbotron
+{
 	background-image: asset-url('1.jpg');
 	background-size: cover;
 	height: 350px;
 }
 
-.jumbotron h1{
+.jumbotron h1
+{
 	color: #fff;
 	text-align: center;
 	font-weight: bold;
 	letter-spacing: 3px;
 }
 
-.btn-xlarge{
+.btn-xlarge
+{
 	font-size: 1.7em;
 	background-color: #58b1b2;
 }	
 
-footer {
+footer 
+{
 	margin-top: 45px;
 	padding-top: 10px;
 	border-top: 3px solid #58b1b2;
 	color: black;
 }
 
-footer a:hover {
+footer a:hover 
+{
 	color: #222;
 }
 
-footer small{
+footer small
+{
 	float: right;
 }
 
-.article-meta-details{
+.article-meta-details
+{
 border-top: 1px solid #eaeaea;
 padding-top: 5px;
 color: grey;
 
 }
 
-.article-actions {
+.article-actions
+ {
 
 border-top: 1px solid #eaeaea;
 padding-top: 5px;
 }
 
-.description {
+.description 
+{
 margin-top: 0;
 }
 
-.article-title {
+.article-title
+{
 font-weight: bold;
 font-size: 1.5em;
 }
 
-.article-body {
+.article-body 
+{
 border-top: 1px solid #eaeaea;
 padding-top: 15px;
 padding-bottom: 15px;
 }
 
-.listing {
 
+.listing 
+{
 list-style: none;
 padding-left: 0;
+}
 
+.badge 
+{
+	background-color: #CEF6F5;
+	text-overflow: auto;
+	text-transform: uppercase;
+}
+
+.input_checkbox input 
+{
+	width: auto !important;
 }
