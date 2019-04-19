@@ -37,6 +37,16 @@
 				</p>
 
 			<% end %>
+
+			<% if d.tags.any? %>
+		
+				<p><b>Tags:</b><% d.tags.each do |e| %>
+					<span class= "badge"><%= link_to "#{e.name}" %></span>
+
+				<% end %>
+				</p>
+			
+			<% end %>
 			
 			<% if logged_in? && (current_user == d.user || current_user.admin?) %>
 
